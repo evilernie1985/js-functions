@@ -6,10 +6,25 @@
 //cycle thruough array
 //add each element to the next
 
-arr = ['1','2','3']
+arr = [1, 2, 3, 4]
 
-function sumArray(arr) {
+function sumArray() {
+  var sum = 0;
   for (var i=0; i<arr.length;i++) {
-    arr[i] += 
+    sum += arr[i]
   }
+  console.log(sum);
 }
+
+sumArray()
+
+function multiplyArray() {
+  var product = 1
+  for (j=0;j<arr.length;j++) {
+    product *= arr[j]
+
+  }
+  console.log(product)
+}
+
+multiplyArray()
