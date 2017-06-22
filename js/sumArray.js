@@ -10,10 +10,10 @@ arr = [1, 2, 3, 4]
 
 function sumArray() {
   var sum = 0;
-  for (var i=0; i<arr.length;i++) {
+  for (var i = 0; i < arr.length; i++) {
     sum += arr[i]
   }
-  console.log(sum);
+  console.log(sum)
 }
 
 sumArray()
